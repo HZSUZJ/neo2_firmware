@@ -10,4 +10,5 @@
 
 
 ## 固件地址
+固件ip默认DHCP  
 [历史固件](https://github.com/HZSUZJ/neo2_firmware/releases)

@@ -7,6 +7,11 @@
 
 **升级后，一般还是原来的ip去访问。倘若不行，去路由器（或光猫）后台查看分配给neo2的ip，neo2的主机名为openwrt**  
 
+## 可能遇到的问题
+单臂路由模式下，如果无法访问国内网站，尝试在网络防火墙自定义规则添加这条规则（请注意要求eth0为LAN口）：
+iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE  
+或者这条规则（有桥接存在的情况下）：  
+iptables -t nat -I POSTROUTING -o  br-lan  -j MASQUERADE
 
 
 

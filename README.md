@@ -18,3 +18,5 @@ iptables -t nat -I POSTROUTING -o  br-lan  -j MASQUERADE
 ## 固件地址
 固件ip默认DHCP  
 [历史固件](https://github.com/HZSUZJ/neo2_firmware/releases)
+
+## 如果帮助到您，能给颗star鼓励下嘛~~
